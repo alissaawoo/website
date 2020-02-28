@@ -95,8 +95,9 @@
 }
 
 .ysh {
-    border-radius: 1vh;
-    width: 50vw;
+    border-radius: 1vw;
+    width: 26vw;
+    /*width: 50vh;*/
     opacity: 0.75;
 
 }
