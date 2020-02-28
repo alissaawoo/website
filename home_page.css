@@ -1,0 +1,187 @@
+/* welcome page*/
+
+.welcome {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+
+}
+
+#demo {
+    font-size: 9vh;
+
+}
+
+.welcome-2 {
+    height:10vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+#down-arrow-1 {
+    color: white;
+    text-decoration: none;
+
+}
+
+.flex-container-1 {
+    height: 90vh;
+
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item {
+    margin: 5vh;
+}
+
+.about-me {
+    /*font-family: Roboto, sans-serif;*/
+
+    /*width: 50vh;*/
+    flex: 33%;
+    font-size: 9vh;
+    letter-spacing: .1em;
+    font-weight: bold;
+
+
+}
+
+.p {
+    flex:33%;
+    font-size: 3vh !important;
+    letter-spacing: .1em;
+}
+
+.icons {
+    margin-right: auto;
+}
+
+.about-icons {
+    font-size:20px;
+    color:black;
+    text-decoration: none;
+    letter-spacing: 1em;
+
+}
+
+
+/*.img-container {*/
+/*    width: 100vh;*/
+
+/*}*/
+
+.img-container{
+    flex: 33%;
+}
+
+.ysh {
+    border-radius: 1vh;
+    width: 50vh;
+    opacity: 0.75;
+
+}
+
+.ysh:hover {
+    opacity: 1.0;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 10vh;
+    /*width: 200vh;*/
+    background:white;
+}
+
+#down-arrow-2 {
+    color: black;
+    text-decoration: none;
+
+}
+/**/
+
+.flex-container-2 {
+    height: 90vh;
+    display:flex;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    color: #56F7D7;
+    margin-top: 5vh;
+    letter-spacing: .1em;
+
+}
+
+.title {
+    color: #56F7D7;
+    font-size: 5vh;
+    /*font-weight: bold;*/
+
+
+}
+
+
+.experience {
+    flex: 49%;
+    color:white;
+    margin-left: 10vh;
+    margin-right: 10vh;
+
+}
+
+.vl {
+
+    height: 75vh;
+    flex: 2%;
+    border-left: 1px #56F7D7 solid;
+    z-index: -1;
+}
+
+.skills {
+    flex: 49%;
+    color:white;
+    margin-left: 10vh;
+    margin-right: 10vh;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 2vh 0;
+}
+
+.arrow-container-2 {
+    height:10vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#down-arrow-3 {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/**/
+
+.projects{
+    height: 100vh;
+
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
