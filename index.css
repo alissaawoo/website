@@ -1,7 +1,8 @@
 /* welcome page*/
 
 .welcome {
-    height: 90vh;
+    /*height: 90vh;*/
+    height: 90vh; /* Fallback for browsers that do not support Custom Properties */
     display: flex;
     justify-content: center;
     align-items:center;
