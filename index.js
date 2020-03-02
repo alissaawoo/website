@@ -6,9 +6,9 @@ var speed = 50; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
     document.body.style.backgroundColor="#191A1A";
-    document.getElementById("demo").style.color="#56F7D7";
+    document.getElementById("typewriter").style.color="#56F7D7";
     if (i < txt.length) {
-        document.getElementById("demo").innerHTML += txt.charAt(i);
+        document.getElementById("typewriter").innerHTML += txt.charAt(i);
         i++;
         setTimeout(typeWriter, speed);
 
