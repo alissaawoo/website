@@ -1,13 +1,10 @@
 /* welcome page*/
 
 .welcome {
-    min-height: 90vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items:center;
-
-    flex-direction: row;
-
 
     -ms-box-orient: horizontal;
     display: -webkit-box;
@@ -19,13 +16,13 @@
 
 }
 
-#typewriter {
+#demo {
     font-size: 9vh;
 
 }
 
 .welcome-2 {
-    min-height:10vh;
+    height:10vh;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -44,12 +41,8 @@
 
 }
 
-
-/*about me page*/
 .flex-container-1 {
-    min-height: 90vh;
-
-    flex-direction: row;
+    height: 90vh;
 
     background-color: white;
     display:flex;
@@ -92,15 +85,23 @@
 }
 
 
+/*.img-container {*/
+/*    width: 100vh;*/
+
+/*}*/
+
 .img-container{
     flex: 33%;
 }
 
 .ysh {
     border-radius: 1vw;
-    width: 26vw;
+    /*width: 26vw;*/
     /*width: 50vh;*/
-
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
     opacity: 0.75;
 
 }
@@ -113,7 +114,7 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    min-height: 10vh;
+    height: 10vh;
     /*width: 200vh;*/
     background:white;
 
@@ -133,16 +134,13 @@
 /**/
 
 .flex-container-2 {
-    min-height: 90vh;
+    height: 90vh;
     display:flex;
     /*align-items: center;*/
     /*justify-content: center;*/
     color: #56F7D7;
     margin-top: 5vh;
     letter-spacing: .1em;
-
-    flex-direction: row;
-
 
     -ms-box-orient: horizontal;
     display: -webkit-box;
@@ -172,7 +170,7 @@
 
 .vl {
 
-    min-height: 75vh;
+    height: 75vh;
     flex: 2%;
     border-left: 1px #56F7D7 solid;
     z-index: -1;
@@ -195,7 +193,7 @@ li {
 }
 
 .arrow-container-2 {
-    min-height:10vh;
+    height:10vh;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -218,10 +216,7 @@ li {
 /**/
 
 .projects{
-    min-height: 100vh;
-
-    flex-direction: row;
-
+    height: 100vh;
 
     background-color: white;
     display:flex;
