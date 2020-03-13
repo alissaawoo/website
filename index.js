@@ -5,7 +5,7 @@ var txt = '    hi, welcome to my page!'; /* The text */
 var speed = 50; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
-    document.body.style.backgroundColor="#191A1A";
+    // document.body.style.backgroundColor="#191A1A";
     document.getElementById("typewriter").style.color="#56F7D7";
     if (i < txt.length) {
         document.getElementById("typewriter").innerHTML += txt.charAt(i);
@@ -57,13 +57,16 @@ $(function() {
     });
 });
 
-// AOS.init({
-//     easing: 'ease-out-back',
-//     duration: 800,
-//     delay: 300,
-//     once: true,
-//     disable: 'mobile'
-// });
 
 
-$('welcome').height($(window).height()/2);
+//navbar
+function openNav() {
+    document.getElementById("mySidenav").style.width = "7vw";
+    document.getElementById("webpage").style.marginLeft = "7vw";
+
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("webpage").style.marginLeft = "0";
+}

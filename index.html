@@ -39,207 +39,237 @@
 
 
 <body>
+<!--navbar-->
 
 
-<!--welcome page-->
-<div class="welcome" id="welcome">
-    <div id="typewriter">
-        <script>typeWriter();</script>
-    </div>
+<span onmouseenter="openNav()"><a class="fas fa-bars fa-2x navicon"></a></span>
 
+<span onmouseleave="closeNav()">
+    <div id="mySidenav" class="sidenav">
+    <a href="#page-1"><i class="fas fa-home"></i></a>
+    <a href="#page-2"><i class="fas fa-user"></i></a>
+    <a href="#page-3"><i class="fas fa-briefcase"></i></a>
+    <a href="#page-4"><i class="fas fa-code"></i></a>
 </div>
-
-
-<div class="welcome-2">
-    <a class="fas fa-chevron-down fa-2x" id="down-arrow-1" href="#page-2"></a>
-</div>
+</span>
 
 
 
+<!--end of navbar-->
 
-<div class="flex-container-1" id="page-2">
-    <div class="img-container flex-item">
-        <img class="ysh" src="https://i.imgur.com/w0hNJgG.jpg?1">
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+
+
+<div id="webpage">
+    <!--welcome page-->
+    <div id="page-1">
+        <div class="welcome" id="welcome">
+            <div id="typewriter">
+                <script>typeWriter();</script>
+            </div>
+
+        </div>
 
     </div>
-    <div class="about-me flex-item">
-        alissa woo
-        <hr>
+
+
+
+    <div class="welcome-2">
+        <a class="fas fa-chevron-down fa-2x" id="down-arrow-1" href="#page-2"></a>
+    </div>
+
+
+
+
+
+    <div class="flex-container-1" id="page-2">
+        <div class="img-container flex-item">
+            <img class="ysh" src="https://i.imgur.com/w0hNJgG.jpg?1">
+
+        </div>
+        <div class="about-me flex-item">
+            alissa woo
+            <hr>
+
+        </div>
+
+        <div class="bio flex-item">
+            <p>i am a software engineer who graduated with a bachelors in computer science from the university of
+                california, santa cruz. currently, i’m seeking new opportunities to kickstart my career as a software
+                engineer. thank you for taking the time to view my website!</p>
+
+            <div class="icons">
+                <a class="far fa-envelope about-icons" href="mailto:alissaawoo@gmail.com"></a>
+
+                <a class="fab fa-linkedin about-icons" href="https://www.linkedin.com/in/alissa-woo/"></a>
+
+                <a class="fab fa-github about-icons" href="https://github.com/alissaawoo"></a>
+
+            </div>
+
+
+
+        </div>
+
 
     </div>
 
-    <div class="bio flex-item">
-        <p>i am a software engineer who graduated with a bachelors in computer science from the university of
-            california, santa cruz. currently, i’m seeking new opportunities to kickstart my career as a software
-            engineer. thank you for taking the time to view my website!</p>
+    <div class="arrow-container">
+        <a class="fas fa-chevron-down fa-2x" id="down-arrow-2" href="#page-3"></a>
+    </div>
 
-        <div class="icons">
-            <a class="far fa-envelope about-icons" href="mailto:alissaawoo@gmail.com"></a>
 
-            <a class="fab fa-linkedin about-icons" href="https://www.linkedin.com/in/alissa-woo/"></a>
+    <div class="flex-container-2" id="page-3">
+        <div class="experience">
 
-            <a class="fab fa-github about-icons" href="https://github.com/alissaawoo"></a>
+            <div class="title">work experience</div>
+
+            software engineer intern | ticketDM <br>
+            oct. 2019 - jan. 2020
+
+            <ul>
+                <li>android/iOS app with 500 active users</li>
+                <li>collaborated with other interns on a 4-person Android front-end team</li>
+                <li>submitted weekly sprints that included updating the Android app layout</li>
+                <li>worked bug fixing with layout on different types of mobile devices</li>
+                <li>updated the SDK version and testing on all devices</li>
+                <li>changed UI workflows</li>
+                <li>worked on minor fixing with code readability; changing variable names that may cause confusion, adding comments</li>
+
+            </ul>
+
+
+
+        </div>
+
+        <div class="vl"></div>
+
+
+        <div class="skills">
+            <div class="title">skills</div>
+
+            languages
+
+            <ul>
+                <li data-aos="zoom-out"  data-aos-delay="100"> <a title="Python" target="_blank" rel="nofollow"><i class="fab fa-python fa-3x"></i>
+                    <span>python</span></a></li>
+
+
+                <li data-aos="zoom-out"  data-aos-delay="300"> <a title="HTML/CSS" target="_blank" rel="nofollow"><i class="far fa-file-code fa-3x"></i>
+                    <span>html/css</span></a></li>
+
+
+            </ul>
+
+            <ul>
+                <li data-aos="zoom-out"  data-aos-delay="500"> <a title="JS" target="_blank" rel="nofollow"><i class="fab fa-js-square fa-3x"></i>
+                    <span>javascript</span></a></li>
+
+                <li data-aos="zoom-out"  data-aos-delay="700"> <a title="Java" target="_blank" rel="nofollow"><i class="fab fa-java fa-color fa-3x"></i>
+                    <span>java</span></a></li>
+            </ul>
+
+
+            tools
+
+            <ul>
+                <li data-aos="zoom-out"  data-aos-delay="900"> <a title="Python" target="_blank" rel="nofollow"><i class="fab fa-android fa-3x"></i>
+                    <span>android studio</span></a></li>
+
+
+                <li data-aos="zoom-out"  data-aos-delay="1100"> <a title="HTML/CSS" target="_blank" rel="nofollow"><i class="far fa-file-code fa-3x"></i>
+                    <span>latex</span></a></li>
+
+
+            </ul>
+
+            <ul>
+                <li data-aos="zoom-out"  data-aos-delay="1300"> <a title="JS" target="_blank" rel="nofollow"><i class="fab fa-github fa-3x"></i>
+                    <span>git</span></a></li>
+
+                <li data-aos="zoom-out"  data-aos-delay="1500"> <a title="Java" target="_blank" rel="nofollow"><i class="fab fa-linux fa-color fa-3x"></i>
+                    <span>linux</span></a></li>
+            </ul>
+
+
+
+
+            <!--        <ul>-->
+            <!--            <li data-aos="zoom-out"  data-aos-delay="900">-->
+            <!--                <i class="fab fa-android">   android studio</i></li>-->
+            <!--            <li data-aos="zoom-out"  data-aos-delay="1100">   latex</li>-->
+            <!--            <li data-aos="zoom-out"  data-aos-delay="1300">-->
+            <!--                <i class="fab fa-github">   git</i>-->
+            <!--            </li>-->
+            <!--            <li data-aos="zoom-out"  data-aos-delay="1500">-->
+            <!--                <i class="fab fa-linux">   linux</i>-->
+            <!--            </li>-->
+            <!--        </ul>-->
 
         </div>
 
 
 
-    </div>
-
-
-</div>
-
-<div class="arrow-container">
-    <a class="fas fa-chevron-down fa-2x" id="down-arrow-2" href="#page-3"></a>
-</div>
-
-
-<div class="flex-container-2" id="page-3">
-    <div class="experience">
-
-        <div class="title">work experience</div>
-
-        software engineer intern | ticketDM <br>
-        oct. 2019 - jan. 2020
-
-        <ul>
-            <li>android/iOS app with 500 active users</li>
-            <li>collaborated with other interns on a 4-person Android front-end team</li>
-            <li>submitted weekly sprints that included updating the Android app layout</li>
-            <li>worked bug fixing with layout on different types of mobile devices</li>
-            <li>updated the SDK version and testing on all devices</li>
-            <li>changed UI workflows</li>
-            <li>worked on minor fixing with code readability; changing variable names that may cause confusion, adding comments</li>
-
-        </ul>
-
-
 
     </div>
 
-    <div class="vl"></div>
+    <div class="arrow-container-2">
+        <a class="fas fa-chevron-down fa-2x" id="down-arrow-3" href="#page-4"></a>
+    </div>
 
-
-    <div class="skills">
-        <div class="title">skills</div>
-
-        languages
-
-        <ul>
-            <li data-aos="zoom-out"  data-aos-delay="100"> <a title="Python" target="_blank" rel="nofollow"><i class="fab fa-python fa-3x"></i>
-                <span>python</span></a></li>
-
-
-            <li data-aos="zoom-out"  data-aos-delay="300"> <a title="HTML/CSS" target="_blank" rel="nofollow"><i class="far fa-file-code fa-3x"></i>
-                <span>html/css</span></a></li>
-
-
-        </ul>
-
-        <ul>
-            <li data-aos="zoom-out"  data-aos-delay="500"> <a title="JS" target="_blank" rel="nofollow"><i class="fab fa-js-square fa-3x"></i>
-                <span>javascript</span></a></li>
-
-            <li data-aos="zoom-out"  data-aos-delay="700"> <a title="Java" target="_blank" rel="nofollow"><i class="fab fa-java fa-color fa-3x"></i>
-                <span>java</span></a></li>
-        </ul>
-
-
-        tools
-
-        <ul>
-            <li data-aos="zoom-out"  data-aos-delay="900"> <a title="Python" target="_blank" rel="nofollow"><i class="fab fa-android fa-3x"></i>
-                <span>android studio</span></a></li>
-
-
-            <li data-aos="zoom-out"  data-aos-delay="1100"> <a title="HTML/CSS" target="_blank" rel="nofollow"><i class="far fa-file-code fa-3x"></i>
-                <span>latex</span></a></li>
-
-
-        </ul>
-
-        <ul>
-            <li data-aos="zoom-out"  data-aos-delay="1300"> <a title="JS" target="_blank" rel="nofollow"><i class="fab fa-github fa-3x"></i>
-                <span>git</span></a></li>
-
-            <li data-aos="zoom-out"  data-aos-delay="1500"> <a title="Java" target="_blank" rel="nofollow"><i class="fab fa-linux fa-color fa-3x"></i>
-                <span>linux</span></a></li>
-        </ul>
-
-
-
-
-        <!--        <ul>-->
-<!--            <li data-aos="zoom-out"  data-aos-delay="900">-->
-<!--                <i class="fab fa-android">   android studio</i></li>-->
-<!--            <li data-aos="zoom-out"  data-aos-delay="1100">   latex</li>-->
-<!--            <li data-aos="zoom-out"  data-aos-delay="1300">-->
-<!--                <i class="fab fa-github">   git</i>-->
-<!--            </li>-->
-<!--            <li data-aos="zoom-out"  data-aos-delay="1500">-->
-<!--                <i class="fab fa-linux">   linux</i>-->
-<!--            </li>-->
-<!--        </ul>-->
+    <div class="proj-header" id="page-4">
+        <div class="proj-title">
+            projects
+        </div>
 
     </div>
 
+    <div class="projects">
+
+
+        <div class="proj-1">
+            <h2>RavExchange 2.0</h2>
+            <ul>
+                <li>Ticket exchange platform built using Web2py that extracts data from Songkick API
+                    and EDMTrain API to show upcoming events based on location, venue, and date.</li>
+                <li>Allow users to create accounts, post listings, and add additional information to profiles</li>
+                <li>Additional features: Messaging, filtering</li>
+            </ul>
+        </div>
+
+        <div class="vl-2"></div>
+
+        <div class="proj-2">
+            <h2>Pacman AI</h2>
+            <ul>
+                <li>Implemented a Pacman AI using several different AI techniques to efficiently beat the game</li>
+                <li>Techniques include: DFS, BFS, A* Search, Alpha-Beta Pruning, Variable Elimination, Laplace
+                    Smoothing, Perceptrons</li>
+                <li>Designed a reward system for agents using Reinforcement Learning and MDPs</li>
+            </ul>
+        </div>
+
+        <div class="vl-2"></div>
+
+        <div class="proj-3">
+            <h2>Side Of The Road</h2>
+            <ul>
+                <li>An Android mobile application, built using Android Studio, designed for college students to share and
+                    locate items that can be bought/sold at a cheap price and locate items that have been left on the side
+                    of the road, which can be picked up for free.</li>
+                <li>Features include: Authentication using Auth0, ability to upload items, map displaying all listings around
+                    the users' areas, and emailing users for additional information.</li>
+            </ul>
+
+
+        </div>
+
+    </div>
 
 
 
 </div>
 
-<div class="arrow-container-2">
-    <a class="fas fa-chevron-down fa-2x" id="down-arrow-3" href="#page-4"></a>
-</div>
-
-<div class="proj-header" id="page-4">
-    <div class="proj-title">
-        projects
-    </div>
-
-</div>
-
-<div class="projects">
-
-
-    <div class="proj-1">
-        <h2>RavExchange 2.0</h2>
-        <ul>
-            <li>Ticket exchange platform built using Web2py that extracts data from Songkick API
-                and EDMTrain API to show upcoming events based on location, venue, and date.</li>
-            <li>Allow users to create accounts, post listings, and add additional information to profiles</li>
-            <li>Additional features: Messaging, filtering</li>
-        </ul>
-    </div>
-
-    <div class="vl-2"></div>
-
-    <div class="proj-2">
-        <h2>Pacman AI</h2>
-        <ul>
-            <li>Implemented a Pacman AI using several different AI techniques to efficiently beat the game</li>
-            <li>Techniques include: DFS, BFS, A* Search, Alpha-Beta Pruning, Variable Elimination, Laplace
-                Smoothing, Perceptrons</li>
-            <li>Designed a reward system for agents using Reinforcement Learning and MDPs</li>
-        </ul>
-    </div>
-
-    <div class="vl-2"></div>
-
-    <div class="proj-3">
-        <h2>Side Of The Road</h2>
-        <ul>
-            <li>An Android mobile application, built using Android Studio, designed for college students to share and
-                locate items that can be bought/sold at a cheap price and locate items that have been left on the side
-                of the road, which can be picked up for free.</li>
-            <li>Features include: Authentication using Auth0, ability to upload items, map displaying all listings around
-                the users' areas, and emailing users for additional information.</li>
-        </ul>
-
-
-    </div>
-
-</div>
 
 
 
